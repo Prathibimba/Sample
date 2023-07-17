@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GitHub Repository</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>GitHub Repository</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Repository Information</h2>
+      <form>
+        <label for="repositoryName">Repository Name:</label>
+        <input type="text" id="repositoryName" placeholder="Enter repository name" required>
+        
+        <label for="repositoryDescription">Description:</label>
+        <textarea id="repositoryDescription" placeholder="Enter repository description" required></textarea>
+        
+        <label for="repositoryURL">Repository URL:</label>
+        <input type="url" id="repositoryURL" placeholder="Enter repository URL" required>
+        
+        <button type="submit">Add Repository</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Existing Repositories</h2>
+      <ul id="repositoryList">
+        <!-- Repository items will be dynamically added here -->
+      </ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
