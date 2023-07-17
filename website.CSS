@@ -1,0 +1,88 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f6f8fa;
+}
+
+header {
+  background-color: #24292e;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.repository-card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.repository-name {
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.repository-description {
+  color: #555;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.repository-info {
+  display: flex;
+  align-items: center;
+}
+
+.repository-icon {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.repository-meta {
+  display: flex;
+  flex-direction: column;
+}
+
+.repository-meta-item {
+  margin: 0;
+}
+
+.meta-icon {
+  margin-right: 5px;
+}
+
+.repository-link {
+  margin-left: auto;
+  padding: 8px 16px;
+  background-color: #0366d6;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.repository-link:hover {
+  background-color: #005cc5;
+}
+
+footer {
+  background-color: #24292e;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
